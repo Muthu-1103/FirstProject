@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto:wght@100&display=swap');
+.header{
+    display: flex;
+    align-items: center;
+    color:white;
+    background-color:black;
+    top:0;
+    position:sticky;
+    z-index: 2000;
+}
+.header_left{
+    flex:0.4;
+
+}
+.header_left > h1{
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: "Roboto",sans-serif;
+    padding: 20px 0;
+    font-weight: bold ;
+}
+.header_left > h1 >span{
+    color:brown;
+    font-weight: bold ;
+}
+.header_right{
+    display:flex;
+    flex:0.6;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header_right > a > h4{
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    font-family: "Crimson Text",serif;
+}
+.header_right > a > h4:hover {
+    transform: scale(1.09);
+    background-color: brown;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-family: crimson;
+    font-size: 18px;
+    cursor: pointer ;
+}

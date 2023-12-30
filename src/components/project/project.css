@@ -1,0 +1,40 @@
+.project-item>img {
+    width: 350px;
+    height:179px;
+}
+.project-details{
+    margin: 15px;
+    width: 350px;
+    height: 179px;
+    transition: transform 100ms ease-in;
+}
+.project-details:hover{
+    color:white;
+    background-color: brown;
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.projectcontainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0;
+    align-items: center;
+}
+.projectcontainer >h1{
+    padding-bottom: 15px;
+
+}
+.projectcontainer >p{
+    padding-bottom: 20px;
+}
+.projects{
+    display: flex;
+    width: 80vw;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}

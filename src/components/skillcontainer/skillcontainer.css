@@ -1,0 +1,30 @@
+.skillcontainer_text{
+    color: white;
+    flex:0.6;
+    text-align:left ;
+    max-width: 500px;
+    margin-bottom: 20px;
+
+}
+.skillcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px  0;
+}
+.skillcontainer_img{
+    flex:0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+.skillcontainer_text >h2{
+    font-size: 30px;
+}
+.skillcontainer_img > img{
+    width:600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+.skill_Skset{
+    font-family:'Times New Roman', Times, serif;
+}
